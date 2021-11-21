@@ -1,11 +1,9 @@
 <template>
   <header>
-    <img alt="Vue logo" src="../assets/logo.png" height="50">
-    <p>My Vue.js Application</p>
-    <nav>
-      <ul>
-        <li><router-link to="/">Home</router-link></li>
-        <li><router-link to="/about">About</router-link></li>
+    <nav class="row w-100">
+      <ul class="row w-100">
+        <li class="d-inline p-5 float-left"><router-link to="/">Video Games</router-link></li>
+        <li class="d-inline p-5 float-left"><router-link to="/about">Contact</router-link></li>
       </ul>
     </nav>
   </header>

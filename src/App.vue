@@ -17,12 +17,24 @@ export default {
 </script>
 
 <style lang="scss">
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Mulish;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #c1d1e8;
+  background-color: #182c47;
+}
+
+#app h1,h2,h3 {
+  font-family: Montserrat;
+  color: #ffffff;
+  background-color: #182c47;
+}
+
+#app .result{
+    background-color: #0e1a2b;
 }
 
 #nav {
@@ -30,11 +42,13 @@ export default {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #c1d1e8;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #c1d1e8;
     }
   }
 }
+
+@import'~bootstrap/dist/css/bootstrap.css'
 </style>

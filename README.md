@@ -1,5 +1,14 @@
 # vue-starter
 
+
+ Todo:
+
+ - Style loading css
+ - Add loading animation
+ - Add git hubbuilder
+
+
+
 ## Project setup
 ```
 npm install

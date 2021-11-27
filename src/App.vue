@@ -24,22 +24,37 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #c1d1e8;
-  background-color: #182c47;
+  background-image: linear-gradient(to right,#081221 , #03080f);
+  min-height: 100vh;
+
 }
 
-#app h1,h2,h3 {
-  font-family: Montserrat;
+#app h1,h2,h3, {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
   color: #ffffff;
-  background-color: #182c47;
 }
 
-#app .result{
-    background-color: #0e1a2b;
+.result p h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
 }
+
+.filterp h3, label{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#app{
+    .result, .filter, .contact-card{
+        background-color: #182c47;
+    }
+  }
 
 #nav {
   padding: 30px;
-
   a {
     font-weight: bold;
     color: #c1d1e8;
